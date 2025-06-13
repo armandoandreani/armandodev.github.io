@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-section {
+        min-height: 100vh;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .hero-img img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-me-content h1 {
+        font-size: 3rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .about-me-content p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .linkto-works {
+        margin-top: 20%;
+    }
+    .about-me-imgs img {
+        display: none;
+    }
+    .works {
+        min-height: 100vh;
+    }
+
+    .works-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
+    .works-title {
+        width: 40ch;
+    }
+
+    .works-title h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .works-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    .works-card {
+        border: 1px solid rgba(0, 0, 0, 0.164);
+        border-radius: 4.25rem;
+        box-shadow: 0px 4px 15.1px rgba(0, 0, 0, 0.18);
+    }
+
+}

@@ -1,0 +1,131 @@
+/* ============================================= */
+/*                GLOBAL VARIABLES               */
+/* ============================================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* Color palette */
+    --white: #E8E9ED;
+    --black: #1C0F13;
+    
+    /* Typography scale */
+    --h1: 5rem;          /* Main heading size */
+    --paragraphs: 2rem;  /* Default text size */
+    
+    /* Visual effects */
+    --drop-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================================= */
+/*                FOOTER LAYOUT                  */
+/* ============================================= */
+.footer-container {
+    background-color: #626364;
+    display: flex;
+    justify-content: space-between; /* Space between logo, text and socials */
+}
+
+/* ============================================= */
+/*                FOOTER IMAGE                   */
+/* ============================================= */
+.footer-img img {
+    width: 157px;
+    height: 146px;
+    border-radius: 164px;  /* Fully rounded/circular image */
+    padding: 1rem;         /* Spacing around image */
+}
+
+/* Image hover animation */
+.footer-img {
+    transition: all 0.3s ease;  /* Smooth transform animation */
+    cursor: pointer;            /* Indicates clickable element */
+}
+
+/* Image hover effect - lifts and scales up slightly */
+.footer-img:hover {
+    transform: translateY(-3px) scale(1.1);
+}
+
+/* ============================================= */
+/*                FOOTER TEXT                    */
+/* ============================================= */
+.footer-p {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: var(--paragraphs);
+    /* Vertical centering */
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/* First paragraph special styling */
+.footer-p p:nth-child(1) {
+    font-weight: 600;  /* Semi-bold weight */
+}
+
+/* ============================================= */
+/*                SOCIAL LINKS                   */
+/* ============================================= */
+.footer-socials-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;  /* Removes bullet points */
+    font-size: var(--paragraphs);
+    gap: 2rem;             /* Space between social icons */
+    /* Vertical centering */
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: 1%;      /* Right margin for spacing */
+}
+
+/* Individual social link element */
+.footer-social-element {
+    transition: all 0.3s ease;  /* Smooth hover animation */
+}
+
+/* Social link anchor styling */
+.footer-social-element a {
+    text-decoration: none;  /* Removes underline */
+    color: var(--black);    /* Uses global black color */
+}
+
+/* Social link hover effect - lifts and scales up */
+.footer-social-element:hover {
+    transform: translateY(-3px) scale(1.1);
+}
+
+/* ============================================= */
+/*                MOBILE RESPONSIVE              */
+/* ============================================= */
+@media screen and (max-width: 768px) {
+    /* Stack footer elements vertically on mobile */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* Reset margins/padding */
+        padding: 0;
+        margin: 0;
+        gap: 1rem;  /* Space between stacked elements */
+    }
+
+    /* Reduce text size on mobile */
+    .footer-p {
+        font-size: 1rem;
+    }
+
+    /* Adjust social links container */
+    .footer-socials-list {
+        margin: 0;  /* Reset margins */
+        padding: 0; /* Reset padding */
+    }
+
+    .footer-social-element {
+        transition: transform 0.1s;
+    }
+
+    .footer-social-element a:active{
+        transform: scale(0.98);
+    }
+}
