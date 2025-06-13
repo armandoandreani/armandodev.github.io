@@ -117,7 +117,19 @@
         </section>
 
         <section id="contacts" class="contacts">
-
+            <div class="contact-container">
+                <div class="contact-text-container fade-in-left">
+                    <h1>Wanna Talk? <br> Let's do it.</h1>  
+                    <p>Send me an email at <a href="mailto:">armando.andreani07@gmail.com</a></p>
+                </div>
+                <div class="contactslist-container fade-in-up">
+                    <ul class="contacts-list">
+                        <li class="contacts-list-item"><a href="https://github.com/armandoandreani" target="_blank"><i class="fi fi-brands-github"></i></a></li>
+                        <li class="contacts-list-item"><a href="https://x.com/AndreaniAr40309"target="_blank"><i class="fi fi-brands-twitter-alt-circle"></i></a></li>
+                        <li class="contacts-list-item"><a href=""target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
     </main>

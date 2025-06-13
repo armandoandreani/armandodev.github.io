@@ -326,7 +326,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: stretch; 
-    box-shadow: 0px 4px 15.1px rgba(0, 0, 0, 0.18);
     gap: 2rem;
     width: 100%;
     max-width: 1200px;
@@ -392,6 +391,140 @@ body {
 .date i {
     vertical-align: middle;
     margin-right: 0.5rem;
+}
+
+
+/* ===== SEZIONE CONTATTI ===== */ 
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact-text-container h1{
+    text-align: center;
+    font-size: var(--h1);
+}
+
+.contact-text-container p {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 1px;
+}
+
+.contact-text-container a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    /* FIX 1: Aggiungi position relative per ::after */
+    position: relative;
+    /* Opzionale: display inline-block per migliore controllo */
+    display: inline-block;
+}
+
+.contact-text-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--black);
+    transition: width 0.3s ease;
+}
+
+.contact-text-container a:hover::after {
+    width: 100%;
+}
+
+.contacts-list-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.contactslist-container p i {
+    vertical-align: middle;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-list-item {
+    font-size: var(--paragraphs);
+}
+
+.contacts-list-item a {
+    color: black;
+    text-decoration: none;
+    /* FIX 2: Aggiungi display e transition per scale */
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.contacts-list-item a:hover {
+    transform: scale(1.2);
+}
+
+/* VERSIONE MIGLIORATA CON PIÙ ANIMAZIONI */
+
+/* Animazione più fluida per i link del testo */
+.contact-text-container a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.contact-text-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--black);
+    transition: width 0.3s ease;
+}
+
+.contact-text-container a:hover {
+    /* Cambia colore al hover per feedback visivo extra */
+    color: #333;
+}
+
+.contact-text-container a:hover::after {
+    width: 100%;
+}
+
+/* Animazioni migliorate per la lista contatti */
+.contacts-list-item {
+    font-size: var(--paragraphs);
+    /* Aggiungi transizione anche al container */
+    transition: transform 0.2s ease;
+}
+
+.contacts-list-item a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.6s ease;
+}
+
+.contacts-list-item a:hover {
+    transform: scale(1.2);
 }
 
 /* ===== ANIMAZIONI ===== */
