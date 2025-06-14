@@ -34,9 +34,9 @@
                         <li class="navbar-mobile-item"><a href="">My Works</a></li></li>
                     </ul>
                     <ul class="navbar-mobile-socials">
-                        <li class="navbar-social-element"><a href=""><i class="fi fi-brands-instagram"></i></a></li>
-                        <li class="navbar-social-element"><a href=""><i class="fi fi-brands-github"></i></a></li>
-                        <li class="navbar-social-element"><a href=""><i class="fi fi-brands-linkedin"></i></a></li>
+                        <li class="navbar-social-element"><a href="https://www.instagram.com/aarm.ndo/" target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
+                        <li class="navbar-social-element"><a href="https://github.com/armandoandreani" target="_blank" ><i class="fi fi-brands-github"></i></a></li>
+                        <li class="navbar-social-element"><a href="https://www.linkedin.com/in/armando-andreani" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
                     </ul>
 
                     <button type="button" class="toContact-btn-mobile">Let's talk!</button>
