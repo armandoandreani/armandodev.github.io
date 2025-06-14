@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armando's Portfolio</title>
     <link rel="stylesheet" href="css/style.css?=v.1">
-    <link rel="stylesheet" href="css/media.css?=v.1">
+    <link rel="stylesheet" href="css/media.css?=v.1.1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
@@ -14,9 +14,11 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
-    <script defer src="js/app.js"></script>
+    <script defer src="js/app.js?=v.1.1"></script>
 </head>
+
 <?php include('header.php') ?>
+
 <body>
     <main class="main-content">
         <section class="hero-section">
@@ -24,7 +26,7 @@
             <div class="hero-text fade-in-sequence delay-1">
                 <h1>Hello there, <br> Armando here...</h1>
                 <h2>High School Student, Web Developer</h2>
-                <p><i class="fi fi-sr-marker"></i>Amantea, IT</p>
+                <p><i style="padding-right: 10px"class="fi fi-sr-marker"></i>Amantea, IT</p>
             </div>
             <div class="hero-img fade-in-sequence delay-1">
                 <img src="images/Screenshot 2025-05-28 202204.png" alt="Armando's Profile Picture"> 
@@ -103,6 +105,7 @@
                         <img src="images/CRIA.png" alt="">
                         <h1>Cria PL's Website</h1>
                         <p>Developed a fully functional website for CriaPL</p>
+                        <p>PROVA PROVA PROVA</p>
                         <a href="criapl.altervista.org"><i class="fi fi-sr-info"></i></i>Let's visit</a>
                     </div>
                     <div class="works-card">
@@ -111,6 +114,12 @@
                         <p>Developed a Quiz Game for a school project.</p>
                         <a href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
 
+                    </div>
+                    <div class="works-card">
+                        <img src="images/Screenshot-2025-06-14-184642.webp" alt="A screenshot of my portfolio">
+                        <h1>My Portfolio</h1>
+                        <p>Developed this portfolio website to showcase my skills and projects.</p>
+                        <a href="armandodev.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
                     </div>
                 </div>
             </div>
