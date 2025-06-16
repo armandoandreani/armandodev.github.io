@@ -171,12 +171,16 @@
         overflow-x: hidden;
     }
 
+    .hero-section, .works, .about-me-section {
+        min-height: 100vh;
+    }
+
     .hero-container {
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding: 2rem;
+        margin: 0 auto;
     }
     
     .hero-section {
@@ -202,7 +206,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 3rem 2rem;
     }
 
     .about-me-content {
@@ -234,7 +237,6 @@
 
     .works {
         min-height: 100vh;
-        padding: 3rem 2rem;
     }
 
     .works-header {

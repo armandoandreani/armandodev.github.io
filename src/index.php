@@ -22,16 +22,16 @@
 <body>
     <main class="main-content">
         <section class="hero-section">
-        <div class="hero-container">
-            <div class="hero-text fade-in-sequence delay-1">
-                <h1>Hello there, <br> Armando here...</h1>
-                <h2>High School Student, Web Developer</h2>
-                <p><i style="padding-right: 10px"class="fi fi-sr-marker"></i>Amantea, IT</p>
+            <div class="hero-container">
+                <div class="hero-text fade-in-sequence delay-1">
+                    <h1>Hello there, <br> Armando here...</h1>
+                    <h2>High School Student, Web Developer</h2>
+                    <p><i style="padding-right: 10px"class="fi fi-sr-marker"></i>Amantea, IT</p>
+                </div>
+                <div class="hero-img fade-in-sequence delay-1">
+                    <img src="images/Screenshot 2025-05-28 202204.png" alt="Armando's Profile Picture"> 
+                </div>
             </div>
-            <div class="hero-img fade-in-sequence delay-1">
-                <img src="images/Screenshot 2025-05-28 202204.png" alt="Armando's Profile Picture"> 
-            </div>
-        </div>
         </section>
         
         <section id="about-me-section" class="about-me-section">
