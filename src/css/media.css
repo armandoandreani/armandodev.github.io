@@ -166,48 +166,64 @@
 }
 
 /* Small Devices - Large Phones/Small Tablets (481px - 768px) */
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     body {
         overflow-x: hidden;
+        padding-top: 0 !important;
     }
 
-    .hero-section, .works, .about-me-section {
+    /* Layout comuni per sezioni full-height */
+    .hero-section, 
+    .works, 
+    .about-me-section {
         min-height: 100vh;
     }
 
-    .hero-container {
+    .contacts {
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+
+    /* Container flex comuni */
+    .hero-container,
+    .about-me-container {
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
         margin: 0 auto;
     }
-    
-    .hero-section {
-        min-height: 100vh;
+
+    .about-me-container {
+        align-items: center;
     }
 
-    .hero-text h1 {
+    /* Tipografia comune */
+    .hero-text h1,
+    .about-me-content h1,
+    .works-title h1,
+    .contact-text-container h1 {
         font-size: 3rem;
+        margin: 0 0 1rem 0;
+        text-align: center;
     }
-    
+
     .hero-text h2 {
         font-size: 2rem;
     }
 
+    /* Immagini ottimizzate */
     .hero-img img {
         width: 200px;
         height: 200px;
         object-fit: cover;
     }
 
-    .about-me-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .about-me-imgs img {
+        display: none;
     }
 
+    /* Sezione About Me */
     .about-me-content {
         display: flex;
         align-items: center;
@@ -215,11 +231,6 @@
         width: auto;
         padding: 0;
         margin: 0;
-    }
-
-    .about-me-content h1 {
-        font-size: 3rem;
-        margin: 0 0 1rem 0;
     }
 
     .about-me-content p {
@@ -231,14 +242,7 @@
         margin-top: 20%;
     }
 
-    .about-me-imgs img {
-        display: none;
-    }
-
-    .works {
-        min-height: 100vh;
-    }
-
+    /* Sezione Works */
     .works-header {
         display: flex;
         flex-direction: column;
@@ -249,11 +253,6 @@
     
     .works-title {
         width: 40ch;
-    }
-
-    .works-title h1 {
-        font-size: 3rem;
-        text-align: center;
     }
 
     .works-cards {
@@ -270,12 +269,15 @@
         box-shadow: 0px 4px 15.1px rgba(0, 0, 0, 0.18);
     }
 
-    .contact-container {
-        padding: 3rem 2rem;
+    .works-card:nth-child(4) img {
+        box-shadow: none;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
     }
 
+    /* Sezione Contatti */
     .contact-text-container h1 {
-        font-size: 3rem;
         margin-bottom: 2rem;
     }
 
@@ -304,21 +306,13 @@
         width: auto;
         border: 0;
         background-color: rgba(0, 0, 0, 0.02);
+        transition: transform 0.2s ease;
     }
 
     .contacts-list-item a:hover {
         transform: scale(1.08);
     }
-
-    .works-card:nth-child(4) img {
-        box-shadow: none;
-        margin-top: 10%;
-        width: 100%;
-        height: auto;
-    }
-
 }
-
 /* Medium Devices - Tablets (769px - 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .hero-container {
@@ -764,6 +758,7 @@
         font-size: 0.9rem;
     }
     
+
     .contact-text-container h1 {
         font-size: 4rem;
     }

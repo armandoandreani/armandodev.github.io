@@ -6,6 +6,7 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="css/header.css?v=1.1">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <header>
     <nav class="navbar">
@@ -16,8 +17,9 @@
             </ul>
 
             <ul class="navbar-links fade-in-sequence delay-3-header">
-                <li class="navbar-links-element"><a href="#about-me-section">About me</a></li>
-                <li class="navbar-links-element"><a href="#works">My Works</a></li>
+                <li id="nav-about" class="navbar-links-element"><a href="#about-me-section">About me</a></li>
+                <li id="nav-works" class="navbar-links-element"><a href="#works">My Works</a></li>
+                <li class="navbar-links-element"><a id="translate" href="#"><i class="fi fi-rr-translate"></i></a></li>
             </ul>
 
             <nav class="navbar-mobile-menu">
@@ -30,8 +32,8 @@
 
                 <div class="navbar-mobile-content">
                     <ul class="navbar-mobile-items">
-                        <li class="navbar-mobile-item"><a href="index.php#about-me-section">About me</a></li></li>
-                        <li class="navbar-mobile-item"><a href="">My Works</a></li></li>
+                        <li id="nav-about" class="navbar-mobile-item"><a href="index.php#about-me-section">About me</a></li></li>
+                        <li id="nav-works" class="navbar-mobile-item"><a href="">My Works</a></li></li>
                     </ul>
                     <ul class="navbar-mobile-socials">
                         <li class="navbar-social-element"><a href="https://www.instagram.com/aarm.ndo/" target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
@@ -39,12 +41,12 @@
                         <li class="navbar-social-element"><a href="https://www.linkedin.com/in/armando-andreani" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
                     </ul>
 
-                    <button type="button" class="toContact-btn-mobile">Let's talk!</button>
+                    <button id="nav-contact" type="button" class="toContact-btn-mobile">Let's talk!</button>
                 </div>
                 
             </nav>
 
-            <a href="#contacts" class="toContact-btn fade-in-sequence delay-3-header">Let's talk!</a>
+            <a id="nav-contact" href="#contacts" class="toContact-btn fade-in-sequence delay-3-header">Let's talk!</a>
         </nav>
     </header>
 

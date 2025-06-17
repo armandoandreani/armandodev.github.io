@@ -24,8 +24,8 @@
         <section class="hero-section">
             <div class="hero-container">
                 <div class="hero-text fade-in-sequence delay-1">
-                    <h1>Hello there, <br> Armando here...</h1>
-                    <h2>High School Student, Web Developer</h2>
+                    <h1 id="hero-h1">Hello there, <br> Armando here...</h1>
+                    <h2 id="hero-h2">High School Student, Web Developer</h2>
                     <p><i style="padding-right: 10px"class="fi fi-sr-marker"></i>Amantea, IT</p>
                 </div>
                 <div class="hero-img fade-in-sequence delay-1">
@@ -37,8 +37,8 @@
         <section id="about-me-section" class="about-me-section">
             <div class="about-me-container">
                 <div class="about-me-content hidden fade-in-left" data-delay="500">
-                    <h1>Know me better.</h1>
-                    <p>
+                    <h1 id="about-me-h1">Know me better.</h1>
+                    <p id="about-me-p">
                          I am a 18 year old student currently studying computer science at ITI A.Monaco in Calabria, Italy. 
                          <br><br>
                          I built this entire website with HTML, CSS and JS. <br> Learning new technologies such as React, Tailwind etc. <br>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="about-me-works">
                     <div class="linkto-works hidden fade-in-right" data-delay="900">
-                        <a href="#works">
+                        <a id="about-me-link" href="#works">
                             Let’s see my works... <br>
                             <i class="fi fi-rr-arrow-small-down"></i>
                         </a>
@@ -66,14 +66,14 @@
             <div class="works-container">
                 <div class="works-header">
                     <div class="works-title hidden fade-in-left">
-                        <h1>My projects</h1>
-                        <p>
+                        <h1 id="works-h1">My projects</h1>
+                        <p id="works-p">
                            In these years I have worked in many projects and did a lot of things. <br>
                            Here some of my stand-outs!
                         </p>
                     </div>
                     <div class="skills hidden fade-in-right">
-                        <h2>My stack</h2>
+                        <h2 id="skills-h2">My stack</h2>
                         <ul class="skills-list">
                             <li class="skills-item">
                                 <i class="fi fi-sr-html-file"></i> <p>HTML</p>
@@ -88,7 +88,7 @@
                                 <i class="fi fi-bs-react"></i> <p>React JS</p>
                             </li>
                             <li class="skills-item">
-                                <i class="fi fi-brands-figma"></i> <p>Design Tool</p>
+                                <i class="fi fi-brands-figma"></i> <p id="figma-p">Design Tool</p>
                             </li>
                         </ul>
                     </div>
@@ -97,29 +97,28 @@
                     <div class="works-card">
                         <img src="images/pwa-logo-512.png" alt="Minecraft Italia's Logo">
                         <h1>Minecraft-Italia</h1>
-                        <p>Staff recruitment management and community project coordination for Minecraft-Italia (5M+ views, 50k+ members)</p>
+                        <p id="mcita-p">Staff recruitment management and community project coordination for Minecraft-Italia (5M+ views, 50k+ members)</p>
                         <p><i class="fi fi-sr-master-plan"></i>2022-2025</p>
-                        <a href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
+                        <a id="visit-link"href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
                     </div>
                     <div class="works-card">
                         <img src="images/CRIA.png" alt="">
-                        <h1>Cria PL's Website</h1>
-                        <p>Developed a fully functional website for CriaPL</p>
-                        <p>PROVA PROVA PROVA</p>
-                        <a href="criapl.altervista.org"><i class="fi fi-sr-info"></i></i>Let's visit</a>
+                        <h1 id="cria-h1">Cria PL's Website</h1>
+                        <p id="cria-p">Developed a fully functional website for CriaPL</p>
+                        <a id="visit-link" href="criapl.altervista.org"><i class="fi fi-sr-info"></i></i>Let's visit</a>
                     </div>
                     <div class="works-card">
                         <img src="images/intelli_logo.jpg" alt="">
-                        <h1>Intelli Learn</h1>
-                        <p>Developed a Quiz Game for a school project.</p>
-                        <a href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
+                        <h1 id="intelli-h1">Intelli Learn</h1>
+                        <p id="intelli-p">Developed a Quiz Game for a school project.</p>
+                        <a id="visit-link" href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
 
                     </div>
                     <div class="works-card">
                         <img src="images/Screenshot-2025-06-14-184642.webp" alt="A screenshot of my portfolio">
-                        <h1>My Portfolio</h1>
-                        <p>Developed this portfolio website to showcase my skills and projects.</p>
-                        <a href="armandodev.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
+                        <h1 id="portfolio-h1">My Portfolio</h1>
+                        <p id="portfolio-p">Developed this portfolio website to showcase my skills and projects.</p>
+                        <a id="visit-link" href="armandodev.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
                     </div>
                 </div>
             </div>
@@ -128,8 +127,8 @@
         <section id="contacts" class="contacts">
             <div class="contact-container">
                 <div class="contact-text-container fade-in-left">
-                    <h1>Wanna Talk? <br> Let's do it.</h1>  
-                    <p>Send me an email at <a href="mailto:">armando.andreani07@gmail.com</a></p>
+                    <h1 id="talk-h1">Wanna Talk? <br> Let's do it.</h1>  
+                    <p id="talk-p">Send me an email at <a href="mailto:">armando.andreani07@gmail.com</a></p>
                 </div>
                 <div class="contactslist-container fade-in-up">
                     <ul class="contacts-list">
@@ -140,7 +139,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 </body>
 </html>
