@@ -19,7 +19,6 @@
             <ul class="navbar-links fade-in-sequence delay-3-header">
                 <li id="nav-about" class="navbar-links-element"><a href="#about-me-section">About me</a></li>
                 <li id="nav-works" class="navbar-links-element"><a href="#works">My Works</a></li>
-                <li class="navbar-links-element"><a id="translate" href="#"><i class="fi fi-rr-translate"></i></a></li>
             </ul>
 
             <nav class="navbar-mobile-menu">
