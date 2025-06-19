@@ -11,9 +11,9 @@
 <header>
     <nav class="navbar">
         <ul class="navbar-socials fade-in-sequence delay-3-header">
-                <li class="navbar-social-element"><a href=""><i class="fi fi-brands-instagram"></i></a></li>
-                <li class="navbar-social-element"><a href=""><i class="fi fi-brands-github"></i></a></li>
-                <li class="navbar-social-element"><a href=""><i class="fi fi-brands-linkedin"></i></a></li>
+                <li class="navbar-social-element"><a href="https://www.instagram.com/aarm.ndo/" target='_blank'><i class="fi fi-brands-instagram"></i></a></li>
+                <li class="navbar-social-element"><a href="https://github.com/armandoandreani" target='_blank'><i class="fi fi-brands-github"></i></a></li>
+                <li class="navbar-social-element"><a href="https://www.linkedin.com/in/armando-andreani" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
             </ul>
 
             <ul class="navbar-links fade-in-sequence delay-3-header">
@@ -31,8 +31,8 @@
 
                 <div class="navbar-mobile-content">
                     <ul class="navbar-mobile-items">
-                        <li id="nav-about" class="navbar-mobile-item"><a href="index.php#about-me-section">About me</a></li></li>
-                        <li id="nav-works" class="navbar-mobile-item"><a href="">My Works</a></li></li>
+                        <li id="nav-about" class="navbar-mobile-item"><a href="#about-me-section">About me</a></li></li>
+                        <li id="nav-works" class="navbar-mobile-item"><a href="#works">My Works</a></li></li>
                     </ul>
                     <ul class="navbar-mobile-socials">
                         <li class="navbar-social-element"><a href="https://www.instagram.com/aarm.ndo/" target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
@@ -40,7 +40,7 @@
                         <li class="navbar-social-element"><a href="https://www.linkedin.com/in/armando-andreani" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
                     </ul>
 
-                    <button id="nav-contact" type="button" class="toContact-btn-mobile">Let's talk!</button>
+                    <a href="#contacts" id="nav-contact" type="button" class="toContact-btn-mobile">Let's talk!</a>
                 </div>
                 
             </nav>

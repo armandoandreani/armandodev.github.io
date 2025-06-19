@@ -248,20 +248,28 @@ body {
 
     /* Mobile contact button */
     .toContact-btn-mobile {
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
-        border-radius: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
         width: min(6.5rem, 90vw);
         height: 37px;
-        font-size: 1rem;
-        border: 1px solid black;
+        border-radius: 68px;
+        box-sizing: border-box;
+        overflow: hidden;
+        font: 600 1rem 'Inter', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: black;
         background-color: transparent;
+        border: 1px solid black;
         box-shadow: var(--drop-shadow);
         cursor: pointer;
         transition: all 0.3s ease;
-        box-sizing: border-box;
-        overflow: hidden;
-        margin: 0 auto;
+    }
+
+    .toContact-btn-mobile:active {
+        transform: scale(0.9);
     }
 
     /* Hamburger menu icon */
