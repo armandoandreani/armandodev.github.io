@@ -99,19 +99,19 @@
                         <h1>Minecraft-Italia</h1>
                         <p id="mcita-p">Staff recruitment management and community project coordination for Minecraft-Italia (5M+ views, 50k+ members)</p>
                         <p><i class="fi fi-sr-master-plan"></i>2022-2025</p>
-                        <a id="visit-link"href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
+                        <a id="visit-link"href="https://www.minecraft-italia.net" target='_blank'><i class="fi fi-sr-info"></i>Let's visit</a>
                     </div>
                     <div class="works-card">
                         <img src="images/CRIA.png" alt="">
                         <h1 id="cria-h1">Cria PL's Website</h1>
                         <p id="cria-p">Developed a fully functional website for CriaPL</p>
-                        <a id="visit-link" href="criapl.altervista.org"><i class="fi fi-sr-info"></i></i>Let's visit</a>
+                        <a id="visit-link" href="https://www.criapl.altervista.org" target='_blank'><i class="fi fi-sr-info"></i></i>Let's visit</a>
                     </div>
                     <div class="works-card">
                         <img src="images/intelli_logo.jpg" alt="">
                         <h1 id="intelli-h1">Intelli Learn</h1>
                         <p id="intelli-p">Developed a Quiz Game for a school project.</p>
-                        <a id="visit-link" href="criapl.altervista.org"><i class="fi fi-sr-info"></i>Let's visit</a>
+                        <a id="visit-link" href="https://github.com/armandoandreani/Intelli_Learn" target='_blank'><i class="fi fi-sr-info"></i>Let's visit</a>
 
                     </div>
                     <div class="works-card">
@@ -127,7 +127,7 @@
         <section id="contacts" class="contacts">
             <div class="contact-container">
                 <div class="contact-text-container fade-in-left">
-                    <h1 id="talk-h1">Wanna Talk? <br> Let's do it.</h1>  
+                    <h1 id="talk-h1">Wanna Talk? <br> Let's do it.</h1>
                     <p id="talk-p">Send me an email at <a href="mailto:">armando.andreani07@gmail.com</a></p>
                 </div>
                 <div class="contactslist-container fade-in-up">
